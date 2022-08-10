@@ -1,0 +1,30 @@
+@import "../../assets/css/colors.scss";
+
+.loginPage {
+  &-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    color: $white;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  &-buttons {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-link {
+    text-align: center;
+    margin-top: 1.5rem;
+     a {
+       color: $lime;
+       font-family: 'PTSans',sans-serif;
+       font-size: 1rem;
+       transition: 0.3s all;
+       &:hover {
+         color: $white;
+       }
+     }
+  }
+}

@@ -1,0 +1,16 @@
+@import "../../assets/css/colors.scss";
+
+.recoveryPage {
+  &-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.8rem;
+    color: $white;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  &-buttons {
+    margin-top: 3rem;
+  }
+
+}

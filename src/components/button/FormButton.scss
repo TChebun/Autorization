@@ -1,0 +1,21 @@
+@import "../../assets/css/colors.scss";
+
+.formButton {
+  &-item {
+    background-color: $green;
+    border: 2px solid $lime;
+    color: $white;
+    border-radius: 36px;
+    width: 144px;
+    height: 52px;
+    font-family: "PTSans", sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s all;
+    &:hover {
+      color: $green;
+      background-color: $lime;
+    }
+  }
+}

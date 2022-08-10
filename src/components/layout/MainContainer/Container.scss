@@ -1,0 +1,13 @@
+@import "../../../assets/css/colors";
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: $beige;
+  background-image: url('../../../assets/img/combine.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
