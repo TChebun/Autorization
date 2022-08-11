@@ -1,6 +1,6 @@
 <template>
   <div class="loginPage">
-    <h2 class="loginPage-title">Login</h2>
+    <form-title title="Login"/>
     <div class="loginPage__wrapper">
       <form-input
         type="text"
@@ -9,13 +9,13 @@
       />
       <form-input
           type="password"
-          name=""
+          name="password"
           placeholderName="Password"
       />
     </div>
     <div class="loginPage-buttons">
-      <form-button text="Login" />
-      <form-button text="Join" />
+      <form-button title="Login"/>
+      <form-button title="Join" @onClick="changePage" />
     </div>
     <div class="loginPage-link">
       <router-link to="/recovery">I forgot my password</router-link>
@@ -25,12 +25,18 @@
 
 <script>
 
-import FormInput from '../../components/input/FormInput.vue';
-import FormButton from '../../components/button/FormButton.vue';
+import FormInput from '@/components/input/FormInput.vue';
+import FormButton from '@/components/buttons/FormButton.vue';
+import FormTitle from '@/components/title/title.vue';
 
 export default {
   name: 'LoginPage',
-  components: {FormInput, FormButton}
+  components: {FormInput, FormButton, FormTitle},
+  methods: {
+    changePage() {
+      this.$router.push({name: 'register'})
+    }
+  }
 }
 </script>
 

@@ -7,10 +7,6 @@
 <script>
 export default {
   name: "FormContainer",
-  data: () => {
-    //
-  }
-
 }
 </script>
 

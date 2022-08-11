@@ -8,7 +8,8 @@ body {
   font-family: "PTSans", sans-serif;
 }
 
-a {
+a, a:visited, a:hover {
+  color: $white;
   text-decoration: none;
 }
 

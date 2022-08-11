@@ -1,4 +1,4 @@
-@import "../../assets/css/colors.scss";
+@import "../../assets/css/colors";
 
 .formButton {
   &-item {
@@ -13,9 +13,17 @@
     font-size: 1.5rem;
     cursor: pointer;
     transition: 0.3s all;
+
+    a {
+      transition: 0.3s all;
+    }
+
     &:hover {
       color: $green;
       background-color: $lime;
+      a {
+        color: $green;
+      }
     }
   }
 }

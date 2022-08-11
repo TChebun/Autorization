@@ -14,10 +14,6 @@
 export default {
   name: "FormInput",
   props: ["type", "placeholderName", "name"],
-  data: () => {
-    //
-  }
-
 }
 </script>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="recoveryPage">
-    <h2 class="recoveryPage-title">Forgot Password</h2>
+    <form-title title="Forgot Password"/>
     <div class="recoveryPage__wrapper">
       <form-input
           type="text"
@@ -9,18 +9,19 @@
       />
     </div>
     <div class="recoveryPage-buttons">
-      <form-button text="Restore" />
+      <form-button title="Restore"/>
     </div>
   </div>
 </template>
 
 <script>
-import FormInput from '../../components/input/FormInput.vue';
-import FormButton from '../../components/button/FormButton.vue';
+import FormInput from '@/components/input/FormInput.vue';
+import FormButton from '@/components/buttons/FormButton.vue';
+import FormTitle from "@/components/title/title.vue";
 
 export default {
   name: 'RecoveryPage',
-  components: {FormInput, FormButton}
+  components: {FormInput, FormButton, FormTitle}
 
 }
 </script>
