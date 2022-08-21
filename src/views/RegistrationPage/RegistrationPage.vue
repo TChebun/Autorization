@@ -5,12 +5,7 @@
       <form-input
           type="text"
           name="login"
-          placeholderName="Login"
-      />
-      <form-input
-          type="text"
-          name="email"
-          placeholderName="E-mail"
+          placeholderName="Login/E-mail"
       />
       <form-input
           type="password"
@@ -34,8 +29,8 @@ export default {
   name: "RegistrationPage",
   components: {FormInput, FormButton, FormTitle},
   methods: {
-    changePage: () => {
-      this.$router.push({name: '/'})
+    changePage() {
+      this.$router.push({name: 'login'})
     }
   }
 }

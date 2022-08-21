@@ -5,7 +5,7 @@
       <form-input
         type="text"
         name="email"
-        placeholderName="E-mail"
+        placeholderName="Login/E-mail"
       />
       <form-input
           type="password"

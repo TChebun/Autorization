@@ -4,7 +4,7 @@
       <form-container>
           <div class="logo__wrapper">
             <img src="./assets/img/logo.svg" alt="Logo">
-            <span class="logo__wrapper-text">Agroservice</span>
+            <router-link to="/" class="logo__wrapper-text">Agroservice</router-link>
           </div>
         <router-view />
       </form-container>
