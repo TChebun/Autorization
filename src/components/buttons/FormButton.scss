@@ -26,4 +26,11 @@
       }
     }
   }
+  @media (max-width: 420px) {
+    &-item {
+      font-size: 1.15rem;
+      width: 110px;
+      height: 40px;
+    }
+  }
 }

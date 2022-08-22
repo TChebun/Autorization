@@ -10,4 +10,10 @@
   background-attachment: fixed;
   display: flex;
   align-items: center;
+  overflow-y: scroll;
+
+  @media (max-height: 580px) {
+    height: 100%;
+    padding: 1rem 0;
+  }
 }

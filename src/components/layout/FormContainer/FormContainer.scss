@@ -5,4 +5,12 @@
   padding: 2.5rem 6rem 5rem;
   border-radius: 36px;
   margin-left: 245px;
+
+  @media (max-width: 1200px) {
+    margin: 0 auto;
+  }
+
+  @media (max-width: 570px) {
+    padding: 1.5rem 2rem 2rem;
+  }
 }
