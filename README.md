@@ -2,6 +2,8 @@
 
 <a href="https://tchebun.github.io/Autorization/#/">Autorization on Github Pages</a>
 
+Интерфейс страницы авторизации/регистрации 
+
 
 ## Project setup
 ```
@@ -18,10 +20,8 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Deploy 
 ```
-npm run lint
+sh deploy.sh
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
