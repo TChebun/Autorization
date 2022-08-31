@@ -9,7 +9,6 @@
         @focus="isActive = true"
         @blur="checkInput()"
         v-model.lazy="inputData"
-        autocomplete="nope"
     >
   </div>
 </template>

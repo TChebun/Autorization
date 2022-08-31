@@ -3,9 +3,9 @@
     <form-title title="Login"/>
     <div class="loginPage__wrapper">
       <form-input
-        type="text"
+        type="email"
         name="email"
-        placeholderName="Login/E-mail"
+        placeholderName="E-mail"
       />
       <form-input
           type="password"

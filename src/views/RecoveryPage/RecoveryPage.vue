@@ -3,7 +3,7 @@
     <form-title title="Forgot Password"/>
     <div class="recoveryPage__wrapper">
       <form-input
-          type="text"
+          type="email"
           name="email"
           placeholderName="E-mail"
       />

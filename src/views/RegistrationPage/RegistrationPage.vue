@@ -3,9 +3,9 @@
     <form-title title="Registration"/>
     <div class="registerPage__wrapper">
       <form-input
-          type="text"
-          name="login"
-          placeholderName="Login/E-mail"
+          type="email"
+          name="email"
+          placeholderName="E-mail"
       />
       <form-input
           type="password"
